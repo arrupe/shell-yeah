@@ -1,0 +1,44 @@
+# PowerShell & Build Outputs
+bin/
+obj/
+debug/
+staging/
+Packages/
+nuget-artifacts/
+*.nupkg
+out/
+/module/
+
+# Test & Analysis Results
+*-tests.xml
+TestsResults*.xml
+testResults.xml
+asa-results/
+BenchmarkDotNet.Artifacts/
+pester-analysis-*
+logfile/
+
+# IDE and Editor Configs (VS Code, Visual Studio, PowerShell ISE)
+.vs/
+.vscode/
+.idea/
+.idea.powershell/
+*.suo
+*.csproj.user
+*.xproj.user
+PowerShell.sln.DotSettings.user
+StyleCop.Cache
+
+# OS Generated Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Temporary and Restore Point Files
+*.TempPoint.*
+*.RestorePoint.*
+*.tmp
+*.log
+*.bak
